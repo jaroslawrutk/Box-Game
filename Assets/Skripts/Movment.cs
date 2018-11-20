@@ -29,7 +29,7 @@ public class Movment : MonoBehaviour {
         if (Input.GetKeyDown("up"))
         {
             if (rb.position.y <1)
-            rb.AddForce(0, 80000 * Time.deltaTime, 0 );
+            rb.AddForce(0, 30000 * Time.deltaTime, 0 );
 
         }
         if(rb.position.y<-1f)
